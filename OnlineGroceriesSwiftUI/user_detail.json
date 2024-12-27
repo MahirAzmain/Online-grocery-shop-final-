@@ -1,0 +1,9 @@
+[
+{"user_id":"1","username":"admin","user_type":"2","name":"admin","email":"admin@admin.com","mobile":"","mobile_code":"","password":"123456","area_id":"0","auth_token":"0ZbWMCJicXUFKfFh4JeM","dervice_token":"","reset_code":"0000","status":"1","created_date":"2023-07-26 14:57:59","modify_date":"2024-06-22 11:47:35"},
+{"user_id":"2","username":"testuser","user_type":"1","name":"","email":"test@gmail.com","mobile":"","mobile_code":"","password":"123456","area_id":"0","auth_token":"cYMRKrECtgyvvubyYeLt","dervice_token":"","reset_code":"0000","status":"1","created_date":"2023-07-25 10:57:32","modify_date":"2024-12-27 17:14:24"},
+{"user_id":"5","username":"User1","user_type":"1","name":"","email":"user1@gmail.com","mobile":"","mobile_code":"","password":"123456","area_id":"0","auth_token":"pJYFk5XGrCrGZl92K5qu","dervice_token":"","reset_code":"0000","status":"1","created_date":"2023-07-29 16:55:36","modify_date":"2023-07-29 16:55:36"},
+{"user_id":"6","username":"user1","user_type":"1","name":"","email":"user2@gmail.com","mobile":"","mobile_code":"","password":"123456","area_id":"0","auth_token":"g0mtdJJqF9Xn7iDjQmNN","dervice_token":"","reset_code":"0000","status":"1","created_date":"2023-08-02 11:01:46","modify_date":"2023-08-02 11:01:46"},
+{"user_id":"7","username":"user6","user_type":"1","name":"","email":"test7@gmail.com","mobile":"","mobile_code":"","password":"123456","area_id":"0","auth_token":"hNytj5vmrr9DmzaSXsyw","dervice_token":"","reset_code":"0000","status":"1","created_date":"2023-08-02 11:33:19","modify_date":"2023-08-06 23:42:01"},
+{"user_id":"8","username":"user5","user_type":"1","name":"","email":"test99@gmail.com","mobile":"","mobile_code":"","password":"123456","area_id":"0","auth_token":"g79Wlyv0n34fsETe9kuJ","dervice_token":"","reset_code":"0000","status":"1","created_date":"2024-12-26 21:32:26","modify_date":"2024-12-26 21:33:13"}
+]
+

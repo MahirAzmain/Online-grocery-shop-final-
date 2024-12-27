@@ -1,0 +1,8 @@
+[
+{"zone_id":"1","name":"Zone 1","status":"1","created_date":"2023-07-28 16:22:28","modify_date":"2023-07-28 16:24:16"},
+{"zone_id":"2","name":"Zone 2","status":"1","created_date":"2023-07-28 16:22:34","modify_date":"2023-07-28 16:22:34"},
+{"zone_id":"3","name":"Zone 4","status":"2","created_date":"2024-05-14 00:14:41","modify_date":"2024-05-14 00:17:25"},
+{"zone_id":"4","name":"Zone4","status":"2","created_date":"2024-05-15 00:02:01","modify_date":"2024-05-15 00:02:18"},
+{"zone_id":"5","name":"Zone 3","status":"2","created_date":"2024-05-15 00:19:11","modify_date":"2024-05-15 00:19:33"}
+]
+

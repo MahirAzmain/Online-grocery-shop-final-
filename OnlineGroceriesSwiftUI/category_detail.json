@@ -1,0 +1,13 @@
+[
+{"cat_id":"1","cat_name":"Frash Fruits & Vegetable","image":"category\/20230726155407547qM5gSxkrCh.png","color":"53B175","status":"1","created_date":"2023-07-26 15:54:07","modify_date":"2024-05-20 21:40:56"},
+{"cat_id":"2","cat_name":"Cooking Oil & Ghee","image":"category\/202307261555485548dKi8yJisIn.png","color":"F8A44C","status":"1","created_date":"2023-07-26 15:54:43","modify_date":"2024-05-20 21:43:35"},
+{"cat_id":"3","cat_name":"Meat & Fish","image":"category\/20230731100233233AOuWmq6r64.png","color":"F7A593","status":"1","created_date":"2023-07-31 10:02:33","modify_date":"2024-05-19 11:12:13"},
+{"cat_id":"4","cat_name":"Bakery & Snacks","image":"category\/20230731100257257bPdXFaneYu.png","color":"D3B0E0","status":"1","created_date":"2023-07-31 10:02:57","modify_date":"2023-07-31 10:02:57"},
+{"cat_id":"5","cat_name":"Dairy & Eggs","image":"category\/20230731100322322vK4gHfIwCI.png","color":"FDE598","status":"1","created_date":"2023-07-31 10:03:22","modify_date":"2023-07-31 10:03:22"},
+{"cat_id":"6","cat_name":"Beverages","image":"category\/20230731100347347lrk8CyW57u.png","color":"B7DFF5","status":"1","created_date":"2023-07-31 10:03:47","modify_date":"2023-07-31 10:03:47"},
+{"cat_id":"7","cat_name":"Test","image":"category\/2024051910342234221rKJDZK8LT.jpg","color":"BBBBBB","status":"2","created_date":"2024-05-19 10:34:22","modify_date":"2024-05-19 11:12:20"},
+{"cat_id":"8","cat_name":"Test","image":"category\/2024051912282128211JZe1U6Tok.jpg","color":"BBBB00","status":"2","created_date":"2024-05-19 12:26:55","modify_date":"2024-05-19 12:28:27"},
+{"cat_id":"9","cat_name":"Test","image":"category\/202405202144454445ZK82l7oL5u.jpg","color":"BBBBBB","status":"2","created_date":"2024-05-20 21:44:45","modify_date":"2024-05-20 21:44:49"},
+{"cat_id":"10","cat_name":"Test2","image":"category\/20240520220642642T9QUS0dY8q.jpg","color":"BBBBBB","status":"2","created_date":"2024-05-20 22:06:42","modify_date":"2024-05-20 22:07:25"}
+]
+

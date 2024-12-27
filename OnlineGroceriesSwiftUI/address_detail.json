@@ -1,0 +1,8 @@
+[
+{"address_id":"1","user_id":"2","name":"My Home","phone":"9876543211","address":"New Nat Stge Bldg, S Bapat Marg, Mahim","city":"Mumbai","state":"Maharashtra","type_name":"Home","postal_code":"400016","is_default":"0","status":"1","created_date":"2023-08-07 10:33:23","modify_date":"2023-08-07 23:29:54"},
+{"address_id":"2","user_id":"2","name":"My Home","phone":"98765432102","address":"246\/ A, Dhutpeshwar Bldg, Girgaon Road, Near Gai Wadi, Girgaon","city":"Mumbai","state":"Maharashtra","type_name":"Home","postal_code":"400004","is_default":"1","status":"1","created_date":"2023-08-07 10:38:58","modify_date":"2023-08-07 23:29:00"},
+{"address_id":"3","user_id":"2","name":"1","phone":"123","address":"asd","city":"asdasd","state":"dsfsdfsf","type_name":"Office","postal_code":"987654123","is_default":"0","status":"2","created_date":"2023-08-07 23:15:27","modify_date":"2023-08-07 23:17:23"},
+{"address_id":"4","user_id":"2","name":"Office1","phone":"9875222","address":"Shop 15, Dda Shopping Complex, Azadpur","city":"Delhi","state":"Delhi","type_name":"Office","postal_code":"110033","is_default":"0","status":"1","created_date":"2023-08-07 23:18:09","modify_date":"2023-08-10 11:43:16"},
+{"address_id":"5","user_id":"2","name":"Add","phone":"986565635225","address":"444 ASD ASD asdasdasd","city":"Surat","state":"Gujarat","type_name":"Home","postal_code":"456546","is_default":"0","status":"1","created_date":"2023-08-10 11:39:37","modify_date":"2023-08-10 11:39:37"}
+]
+
