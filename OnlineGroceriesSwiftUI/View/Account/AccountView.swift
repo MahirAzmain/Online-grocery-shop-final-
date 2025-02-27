@@ -93,8 +93,8 @@ struct AccountView: View {
                                 AccountRow(title: "Notifications", icon: "a_noitification")
                             }
                            
-                            AccountRow(title: "Help", icon: "a_help")
-                            AccountRow(title: "About", icon: "a_about")
+//                            AccountRow(title: "Help", icon: "a_help")
+//                            AccountRow(title: "About", icon: "a_about")
                         }
                         
                         Button {

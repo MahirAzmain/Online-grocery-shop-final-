@@ -7,6 +7,7 @@
 
 
 import SwiftUI
+import FirebaseDatabase
 
 class ProductDetailViewModel: ObservableObject
 {
@@ -22,6 +23,9 @@ class ProductDetailViewModel: ObservableObject
     @Published var isShowDetail: Bool = false
     @Published var isShowNutrition: Bool = false
     @Published var qty: Int = 1
+    
+    private let realtimeDB = Database.database().reference()
+
     
     func showDetail(){
         isShowDetail = !isShowDetail
@@ -49,9 +53,39 @@ class ProductDetailViewModel: ObservableObject
     init(prodObj: ProductModel) {
         self.pObj = prodObj
         self.isFav = prodObj.isFav
-        serviceCallDetail()
+         serviceCallDetail()
+        //fetchProductDetails(prodId: prodObj.prodId)
     }
+    func fetchProductDetails(prodId: Int) {
+        print("Fetching details for product ID: \(prodId)") // Print the product ID
+          realtimeDB.child("product_detail/\(prodId)").observeSingleEvent(of: .value) { snapshot in
+              guard let productDict = snapshot.value as? [String: Any] else {
+                  self.errorMessage = "Product not found"
+                  self.showError = true
+                  return
+              }
+              
+              DispatchQueue.main.async {
+                  self.pObj = ProductModel(dict: productDict)
+                  self.isFav = self.pObj.isFav
+              }
+          } withCancel: { error in
+              self.errorMessage = error.localizedDescription
+              self.showError = true
+          }
+      }
     
+    
+    func FirebaseAddRemoveFav() {
+           isFav.toggle()
+           pObj.isFav = isFav
+           realtimeDB.child("product_detail").child("\(pObj.prodId)").updateChildValues(["is_fav": isFav ? 1 : 0]) { error, _ in
+               if let error = error {
+                   self.errorMessage = error.localizedDescription
+                   self.showError = true
+               }
+           }
+       }
     //MARK: ServiceCall
     
     func serviceCallDetail(){

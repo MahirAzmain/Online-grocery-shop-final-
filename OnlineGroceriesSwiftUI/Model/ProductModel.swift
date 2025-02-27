@@ -1,6 +1,13 @@
+//
+//  ProductModel.swift
+//  OnlineGroceriesSwiftUI
+//
+//  Created by Mahir Azmain Haque on 5/12/24.
+//
+
 import SwiftUI
 
-struct ProductModel: Identifiable, Equatable {
+struct ProductModel:  Identifiable, Equatable {
     var id: Int = 0
     var prodId: Int = 0
     var catId: Int = 0
@@ -25,12 +32,15 @@ struct ProductModel: Identifiable, Equatable {
     var isFav: Bool = false
     var avgRating: Int = 0
 
-    // MARK: - Initializers
 
-    /// Default initializer
+
+// MARK: - Initializers
+
+// Default initializer
     init() {}
 
-    /// Initializer for NSDictionary (e.g., backend API)
+/// Initializer for NSDictionary (e.g., backend API)
+
     init(dict: NSDictionary) {
         self.id = dict.value(forKey: "prod_id") as? Int ?? 0
         self.prodId = dict.value(forKey: "prod_id") as? Int ?? 0
@@ -55,9 +65,8 @@ struct ProductModel: Identifiable, Equatable {
         self.totalPrice = dict.value(forKey: "total_price") as? Double ?? 0
         self.startDate = (dict.value(forKey: "start_date") as? String ?? "").stringDateToDate() ?? Date()
         self.endDate = (dict.value(forKey: "end_date") as? String ?? "").stringDateToDate() ?? Date()
-        self.avgRating = Int(dict.value(forKey: "avg_rating") as? Double ?? 0.0)
+        self.avgRating =  Int(dict.value(forKey: "avg_rating") as? Double ?? 0.0)
     }
-
     /// Initializer for Firestore or Swift dictionaries
     init(dict: [String: Any]) {
         self.id = dict["prod_id"] as? Int ?? 0
@@ -85,12 +94,13 @@ struct ProductModel: Identifiable, Equatable {
         self.endDate = (dict["end_date"] as? String ?? "").stringDateToDate() ?? Date()
         self.avgRating = Int(dict["avg_rating"] as? Double ?? 0.0)
     }
-
-    // MARK: - Equatable Conformance
+    
     static func == (lhs: ProductModel, rhs: ProductModel) -> Bool {
         return lhs.id == rhs.id
     }
 }
+
+
 
 // MARK: - Extension for Serialization
 extension ProductModel {

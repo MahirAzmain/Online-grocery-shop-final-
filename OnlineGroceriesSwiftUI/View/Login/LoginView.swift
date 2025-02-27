@@ -31,7 +31,7 @@ struct LoginView: View {
                     .padding(.bottom, .screenWidth * 0.1)
                 
                 
-                Text("Loging")
+                Text("Login")
                     .font(.customfont(.semibold, fontSize: 26))
                     .foregroundColor(.primaryText)
                     .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
@@ -51,7 +51,7 @@ struct LoginView: View {
                 
                 
                 NavigationLink {
-                 //   ForgotPasswordView()
+                    ForgotPasswordView()
                 } label: {
                     Text("Forgot Password?")
                         .font(.customfont(.medium, fontSize: 14))

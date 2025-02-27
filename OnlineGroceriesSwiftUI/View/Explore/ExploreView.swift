@@ -2,7 +2,7 @@
 //  ExploreView.swift
 //  OnlineGroceriesSwiftUI
 //
-//  Created by Mahir Azmain Haque on 5/12/24.
+//  Created by CodeForAny on 03/08/23.
 //
 
 import SwiftUI
@@ -70,3 +70,4 @@ struct ExploreView_Previews: PreviewProvider {
         
     }
 }
+

@@ -60,19 +60,19 @@ class MainViewModel: ObservableObject {
             self.showError = true
             return
         }
-        Auth.auth().signIn(withEmail: txtEmail, password: txtPassword) { [weak self] result, error in
-              if let error = error {
-                  self?.showError = true
-                  self?.errorMessage = error.localizedDescription
-                  return
-              }
-              
-              // Login successful
-              if let user = result?.user {
-                  print("User \(user.email ?? "No Email") logged in successfully!")
-              }
-          }
-        
+//        Auth.auth().signIn(withEmail: txtEmail, password: txtPassword) { [weak self] result, error in
+//              if let error = error {
+//                  self?.showError = true
+//                  self?.errorMessage = error.localizedDescription
+//                  return
+//              }
+//              
+//              // Login successful
+//              if let user = result?.user {
+//                  print("User \(user.email ?? "No Email") logged in successfully!")
+//              }
+//          }
+//        
         ServiceCall.post(parameter: ["email": txtEmail, "password": txtPassword, "dervice_token":"" ], path: Globs.SV_LOGIN) { responseObj in
             if let response = responseObj as? NSDictionary {
                 if response.value(forKey: KKey.status) as? String ?? "" == "1" {
@@ -114,18 +114,18 @@ class MainViewModel: ObservableObject {
             self.showError = true
             return
         }
-        Auth.auth().createUser(withEmail: txtEmail, password: txtPassword) { [weak self] result, error in
-            if let error = error {
-                self?.showError = true
-                self?.errorMessage = error.localizedDescription
-                return
-            }
-            
-            // Successfully created a user
-            if let user = result?.user {
-                print("User \(user.email ?? "No Email") created successfully!")
-            }
-        }
+//        Auth.auth().createUser(withEmail: txtEmail, password: txtPassword) { [weak self] result, error in
+//            if let error = error {
+//                self?.showError = true
+//                self?.errorMessage = error.localizedDescription
+//                return
+//            }
+//            
+//            // Successfully created a user
+//            if let user = result?.user {
+//                print("User \(user.email ?? "No Email") created successfully!")
+//            }
+//        }
     
 
         

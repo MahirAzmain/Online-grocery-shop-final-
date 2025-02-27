@@ -24,7 +24,7 @@ struct WelcomeView: View {
                     .foregroundColor(.white)
                     .multilineTextAlignment(.center)
                 
-                Text( "Ger your groceries in as fast as one hour")
+                Text( "Get your groceries in as fast as one hour")
                     .font(.customfont(.medium, fontSize: 16))
                     .foregroundColor(.white.opacity(0.7))
                     .multilineTextAlignment(.center)

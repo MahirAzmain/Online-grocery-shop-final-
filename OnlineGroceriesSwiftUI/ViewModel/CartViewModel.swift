@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import FirebaseDatabase
+import FirebaseAuth
 
 class CartViewModel: ObservableObject
 {
@@ -35,13 +37,142 @@ class CartViewModel: ObservableObject
     @Published var discountAmount: String = ""
     @Published var userPayAmount: String = ""
     
-    
+    @Published var userId: String? = nil
+
     init() {
-        serviceCallList()
+         serviceCallList()
+        //fetchCartDetails()
     }
     
+    func fetchLoggedInUserId() {
+          if let user = Auth.auth().currentUser {
+              self.userId = user.uid
+              print("Logged in user ID: \(self.userId ?? "No user ID found")")
+          } else {
+              self.errorMessage = "No user is currently logged in."
+              self.showError = true
+          }
+      }
+    func fetchCartDetails() {
+        guard let userId = self.userId else {
+            print("User ID not available. Cannot fetch cart details.")
+            return
+        }
+
+        let databaseRef = Database.database().reference()
+        databaseRef.child("cart_detail").queryOrdered(byChild: "user_id").queryEqual(toValue: userId).observeSingleEvent(of: .value) { snapshot in
+            guard let data = snapshot.value as? [String: Any] else {
+                print("No cart details found for user_id: \(userId)")
+                return
+            }
+
+            self.listArr = data.compactMap { key, value in
+                if let cartDict = value as? [String: Any] {
+                    return CartItemModel(dict: cartDict as NSDictionary)
+                }
+                return nil
+            }
+
+            print("Cart items fetched successfully for user_id: \(userId)")
+        } withCancel: { error in
+            print("Failed to fetch cart details: \(error.localizedDescription)")
+        }
+    }
     
+    func serviceCallUpdateQtyFirebase(cObj: CartItemModel, newQty: Int) {
+        let cartRef = Database.database().reference().child("cart_details").child("\(cObj.cartId)")
+        
+        // Update the quantity in the cart
+        cartRef.updateChildValues(["qty": newQty]) { error, _ in
+            if let error = error {
+                self.errorMessage = error.localizedDescription
+                self.showError = true
+                print("Error updating quantity: \(error.localizedDescription)")
+            } else {
+                // Refresh the cart list after update
+                self.fetchCartDetails()
+                print("Quantity updated successfully for cartId: \(cObj.cartId)")
+            }
+        }
+    }
     
+    func serviceCallRemoveFirebase(cObj: CartItemModel) {
+        let cartRef = Database.database().reference().child("cart_details").child("\(cObj.cartId)")
+        
+        // Remove the cart item
+        cartRef.removeValue { error, _ in
+            if let error = error {
+                self.errorMessage = error.localizedDescription
+                self.showError = true
+                print("Error removing cart item: \(error.localizedDescription)")
+            } else {
+                // Refresh the cart list after removal
+                self.fetchCartDetails()
+                print("Cart item removed successfully for cartId: \(cObj.cartId)")
+            }
+        }
+    }
+
+    func serviceCallOrderPlaceFirebase() {
+        if deliveryType == 1 && deliverObj == nil {
+            self.errorMessage = "Please select delivery address"
+            self.showError = true
+            return
+        }
+        
+        if paymentType == 2 && paymentObj == nil {
+            self.errorMessage = "Please select payment method"
+            self.showError = true
+            return
+        }
+        
+        let orderRef = Database.database().reference().child("order_details").childByAutoId()
+        let orderData: [String: Any] = [
+            "address_id": deliveryType == 2 ? "" : "\(deliverObj?.id ?? 0)",
+            "deliver_type": deliveryType,
+            "payment_type": paymentType,
+            "pay_id": paymentType == 1 ? "" : "\(paymentObj?.id ?? 0)",
+            "promo_code_id": promoObj?.id ?? "",
+            "order_status": "pending",
+            "created_date": Date().displayDate(format: "yyyy-MM-dd HH:mm:ss")
+        ]
+        
+        orderRef.setValue(orderData) { error, _ in
+            if let error = error {
+                self.errorMessage = error.localizedDescription
+                self.showError = true
+            } else {
+                self.deliverObj = nil
+                self.paymentObj = nil
+                self.promoObj = nil
+                self.showCheckout = false
+                self.errorMessage = "Order placed successfully!"
+                self.showError = true
+                self.serviceCallList()
+                self.showOrderAccept = true
+                print("Order placed successfully!")
+            }
+        }
+    }
+    class func serviceCallAddToCartFirebase(prodId: Int, qty: Int, didDone: ((_ isDone: Bool, _ message: String) -> ())?) {
+        let cartRef = Database.database().reference().child("cart_details").childByAutoId()
+        let cartData: [String: Any] = [
+            "prod_id": prodId,
+            "qty": qty,
+            "status": "active",
+            "created_date": Date().displayDate(format: "yyyy-MM-dd HH:mm:ss")
+        ]
+        
+        cartRef.setValue(cartData) { error, _ in
+            if let error = error {
+                didDone?(false, error.localizedDescription)
+            } else {
+                didDone?(true, "Product added to cart successfully!")
+                print("Product added to cart: \(prodId) with qty: \(qty)")
+            }
+        }
+    }
+
     //MARK: ServiceCall
     
     func serviceCallList(){

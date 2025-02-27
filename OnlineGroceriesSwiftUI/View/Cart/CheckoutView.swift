@@ -65,10 +65,10 @@ struct CheckoutView: View {
                     if(cartVM.deliveryType == 1) {
                         
                         NavigationLink {
-//                            DelieryAddressView(isPicker: true, didSelect: {
-//                                aObj in
-//                                cartVM.deliverObj = aObj
-//                            } )
+                            DelieryAddressView(isPicker: true, didSelect: {
+                                aObj in
+                                cartVM.deliverObj = aObj
+                            } )
                         } label: {
                             HStack {
                                 Text("Delivery")
@@ -118,10 +118,10 @@ struct CheckoutView: View {
                     if(cartVM.paymentType == 2) {
                         
                         NavigationLink {
-//                            PaymentMethodsView(isPicker: true, didSelect: {
-//                                pObj in
-//                                cartVM.paymentObj = pObj
-//                            } )
+                            PaymentMethodsView(isPicker: true, didSelect: {
+                                pObj in
+                                cartVM.paymentObj = pObj
+                            } )
                         } label: {
                             HStack {
                                 Text("Payment")
@@ -154,10 +154,10 @@ struct CheckoutView: View {
                     }
                     
                     NavigationLink {
-//                        PromoCodeView(isPicker: true, didSelect: {
-//                            pObj in
-//                            cartVM.promoObj = pObj
-//                        })
+                        PromoCodeView(isPicker: true, didSelect: {
+                            pObj in
+                            cartVM.promoObj = pObj
+                        })
                     } label: {
                         HStack {
                             Text("Promo Code")

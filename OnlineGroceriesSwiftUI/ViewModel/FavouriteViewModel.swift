@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import FirebaseDatabase
 
 class FavouriteViewModel: ObservableObject
 {
@@ -16,13 +17,31 @@ class FavouriteViewModel: ObservableObject
     @Published var errorMessage = ""
     
     @Published var listArr: [ProductModel] = []
-    
+    private let realtimeDB = Database.database().reference()
+
     
     init() {
-        serviceCallList()
+         serviceCallList()
+        //fetchFavoriteList()
     }
     
-    
+    // MARK: - Fetch Favorite List from Realtime Database
+        func fetchFavoriteList() {
+            realtimeDB.child("favorite_details").observeSingleEvent(of: .value) { snapshot in
+                guard let data = snapshot.value as? [[String: Any]] else {
+                    self.errorMessage = "No favorite items found in the database."
+                    self.showError = true
+                    return
+                }
+                
+                self.listArr = data.map { ProductModel(dict: $0 as NSDictionary) }
+                print("Favorite list fetched successfully: \(self.listArr)")
+            } withCancel: { error in
+                self.errorMessage = error.localizedDescription
+                self.showError = true
+                print("Error fetching favorite details: \(error.localizedDescription)")
+            }
+        }
     
     //MARK: ServiceCall
     

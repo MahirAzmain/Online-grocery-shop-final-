@@ -30,9 +30,9 @@ class HomeViewModel: ObservableObject
     private let db = Firestore.firestore()
     private let realtimeDB = Database.database().reference()
     init() {
-//        serviceCallList()
-        /*fetchDataFromFirestore*/()
-        fetchDataFromRealtimeDatabase()
+         serviceCallList()
+        /*fetchDataFromFirestore*/
+        //fetchDataFromRealtimeDatabase()
     }
     
     
@@ -141,64 +141,88 @@ class HomeViewModel: ObservableObject
         }
     }
     
+            func fetchDataFromRealtimeDatabase() {
+                realtimeDB.child("homeData").observeSingleEvent(of: .value) { snapshot in
+                    guard let value = snapshot.value as? [String: Any] else {
+                        self.errorMessage = "No data found in Realtime Database"
+                        self.showError = true
+                        return
+                    }
     
-    // MARK: Fetch Data from Firebase Realtime Database
-    func fetchDataFromRealtimeDatabase() {
-        realtimeDB.child("homeData").observeSingleEvent(of: .value) { snapshot in
-            guard let value = snapshot.value as? [String: Any] else {
-                self.errorMessage = "No data found in Realtime Database"
-                self.showError = true
-                return
+                    if let offerDict = value["offer_list"] as? [String: Any] {
+                              self.offerArr = offerDict.compactMap { _, product -> ProductModel? in
+                                  guard let productDict = product as? [String: Any] else { return nil }
+                                  var productModel = ProductModel(dict: productDict)
+                                  if let prodIdString = productDict["prod_id"] as? String, let prodIdInt = Int(prodIdString) {
+                                      productModel.prodId = prodIdInt // Convert prodId to Int
+                                  }
+                                  if let priceString = productDict["price"] as? String, let priceDouble = Double(priceString) {
+                                          productModel.price = priceDouble // Convert price to Double
+                                      }
+                                  return productModel
+                              }
+                          }
+    
+                    // Parse Best Selling List
+                           if let bestSellDict = value["best_sell_list"] as? [String: Any] {
+                               self.bestArr = bestSellDict.compactMap { _, product -> ProductModel? in
+                                   guard let productDict = product as? [String: Any] else { return nil }
+                                   var productModel = ProductModel(dict: productDict)
+                                   if let prodIdString = productDict["prod_id"] as? String, let prodIdInt = Int(prodIdString) {
+                                       productModel.prodId = prodIdInt // Convert prodId to Int
+                                   }
+                                   return productModel
+                               }
+                           }
+    
+                           // Parse Product List
+                           if let productDict = value["list"] as? [String: Any] {
+                               self.listArr = productDict.compactMap { _, product -> ProductModel? in
+                                   guard let productDict = product as? [String: Any] else { return nil }
+                                   var productModel = ProductModel(dict: productDict)
+                                   if let prodIdString = productDict["prod_id"] as? String, let prodIdInt = Int(prodIdString) {
+                                       productModel.prodId = prodIdInt // Convert prodId to Int
+                                   }
+                                   return productModel
+                               }
+                           }
+    
+                    // Parse Type List
+                    if let typeDict = value["type_list"] as? [String: Any] {
+                        self.typeArr = typeDict.compactMap { _, type -> TypeModel? in
+                            guard let typeDict = type as? [String: Any] else { return nil }
+                            return TypeModel(dict: typeDict)
+                        }
+                    }
+                } withCancel: { error in
+                    self.errorMessage = error.localizedDescription
+                    self.showError = true
+                    print("Error fetching data from Realtime Database: \(error.localizedDescription)")
+                }
             }
-            
-            if let offerList = value["offer_list"] as? [[String: Any]] {
-                self.offerArr = offerList.map { ProductModel(dict: $0 as NSDictionary) }
+    
+    
+    
+    
+            // MARK: Save Data to Firebase Realtime Database
+            func saveDataToRealtimeDatabase() {
+                let data: [String: Any] = [
+                    "offer_list": offerArr.map { $0.toDict() },
+                    "best_sell_list": bestArr.map { $0.toDict() },
+                    "list": listArr.map { $0.toDict() },
+                    "type_list": typeArr.map { $0.toDict() }
+                ]
+    
+                realtimeDB.child("homeData").setValue(data) { error, _ in
+                    if let error = error {
+                        self.errorMessage = error.localizedDescription
+                        self.showError = true
+                        print("Error saving data to Realtime Database: \(error.localizedDescription)")
+                    } else {
+                        print("Data saved successfully to Realtime Database")
+                    }
+                }
             }
-            
-            if let bestSellList = value["best_sell_list"] as? [[String: Any]] {
-                self.bestArr = bestSellList.map { ProductModel(dict: $0 as NSDictionary) }
-            }
-            
-            if let list = value["list"] as? [[String: Any]] {
-                self.listArr = list.map { ProductModel(dict: $0 as NSDictionary) }
-            }
-            
-            if let typeList = value["type_list"] as? [[String: Any]] {
-                self.typeArr = typeList.map { TypeModel(dict: $0 as NSDictionary) }
-            }
-        } withCancel: { error in
-            self.errorMessage = error.localizedDescription
-            self.showError = true
-            print("Error fetching data from Realtime Database: \(error.localizedDescription)")
         }
-    }
-    
-    // MARK: Save Data to Firebase Realtime Database
-    func saveDataToRealtimeDatabase() {
-        let data: [String: Any] = [
-            "offer_list": offerArr.map { $0.toDict() },
-            "best_sell_list": bestArr.map { $0.toDict() },
-            "list": listArr.map { $0.toDict() },
-            "type_list": typeArr.map { $0.toDict() }
-        ]
-        
-        realtimeDB.child("homeData").setValue(data) { error, _ in
-            if let error = error {
-                self.errorMessage = error.localizedDescription
-                self.showError = true
-                print("Error saving data to Realtime Database: \(error.localizedDescription)")
-            } else {
-                print("Data saved successfully to Realtime Database")
-            }
-        }
-    }
-}
     
     
-
-  
-
-
-    
-
-

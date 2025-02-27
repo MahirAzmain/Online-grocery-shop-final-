@@ -32,8 +32,6 @@ class ForgotPasswordViewModel: ObservableObject
     
    
     
-    
-    
     //MARK: ServiceCall
     func serviceCallRequest(){
         

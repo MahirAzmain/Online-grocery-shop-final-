@@ -303,7 +303,7 @@ struct ProductDetailView_Previews: PreviewProvider {
                 "unit_value": "7",
                 "nutrition_weight": "200g",
                 "price": 2.99,
-                "image": "http://192.168.1.3:3001/img/product/202307310947354735xuruflIucc.png",
+                "image": "http://localhost:3001/img/product/202307310951365136W6nJvPCdzQ.png",
                 "cat_name": "Frash Fruits & Vegetable",
                 "type_name": "Pulses",
                 "is_fav": 1
