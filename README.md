@@ -10,3 +10,9 @@
 <img width="391" alt="Screenshot 2024-12-15 at 4 01 06 AM" src="https://github.com/user-attachments/assets/6ef8566a-78c7-4f81-b3d4-ff2c34820d0d" />
 <img width="416" alt="Screenshot 2024-12-15 at 4 01 15 AM" src="https://github.com/user-attachments/assets/6251dba2-4623-4b27-a6eb-98d679beef45" />
 <img width="424" alt="Screenshot 2024-12-15 at 4 01 22 AM" src="https://github.com/user-attachments/assets/75f0e597-5e50-485e-92a8-860de1ec3d9a" />
+
+**Pdf:**
+[Online-Groceries-Shop-App.pdf](https://github.com/user-attachments/files/19038284/Online-Groceries-Shop-App.pdf)
+
+**Powerpoint Presentation:**
+[Online-Groceries-Shop-App [2].pptx](https://github.com/user-attachments/files/19038285/Online-Groceries-Shop-App.2.pptx)
