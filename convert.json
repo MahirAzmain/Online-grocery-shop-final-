@@ -1,0 +1,2515 @@
+{
+"address_detail":[
+ {
+  "address_id": 1,
+  "user_id": 2,
+  "name": "My Home",
+  "phone": "9876543211",
+  "address": "New Nat Stge Bldg, S Bapat Marg, Mahim",
+  "city": "Mumbai",
+  "state": "Maharashtra",
+  "type_name": "Home",
+  "postal_code": "400016",
+  "is_default": 0,
+  "status": 1,
+  "created_date": "08\/07\/2023",
+  "modify_date": "08\/07\/2023"
+ },
+ {
+  "address_id": 2,
+  "user_id": 2,
+  "name": "My Home",
+  "phone": "98765432102",
+  "address": "246\/ A, Dhutpeshwar Bldg, Girgaon Road, Near Gai Wadi, Girgaon",
+  "city": "Mumbai",
+  "state": "Maharashtra",
+  "type_name": "Home",
+  "postal_code": "400004",
+  "is_default": 1,
+  "status": 1,
+  "created_date": "08\/07\/2023",
+  "modify_date": "08\/07\/2023"
+ },
+ {
+  "address_id": 3,
+  "user_id": 2,
+  "name": "1",
+  "phone": "123",
+  "address": "asd",
+  "city": "asdasd",
+  "state": "dsfsdfsf",
+  "type_name": "Office",
+  "postal_code": "987654123",
+  "is_default": 0,
+  "status": 2,
+  "created_date": "08\/07\/2023",
+  "modify_date": "08\/07\/2023"
+ },
+ {
+  "address_id": 4,
+  "user_id": 2,
+  "name": "Office1",
+  "phone": "9875222",
+  "address": "Shop 15, Dda Shopping Complex, Azadpur",
+  "city": "Delhi",
+  "state": "Delhi",
+  "type_name": "Office",
+  "postal_code": "110033",
+  "is_default": 0,
+  "status": 1,
+  "created_date": "08\/07\/2023",
+  "modify_date": "08\/10\/2023"
+ },
+ {
+  "address_id": 5,
+  "user_id": 2,
+  "name": "Add",
+  "phone": "986565635225",
+  "address": "444 ASD ASD asdasdasd",
+  "city": "Surat",
+  "state": "Gujarat",
+  "type_name": "Home",
+  "postal_code": "456546",
+  "is_default": 0,
+  "status": 1,
+  "created_date": "08\/10\/2023",
+  "modify_date": "08\/10\/2023"
+ }
+],
+"area_detail":[
+ {
+  "area_id": 1,
+  "zone_id": 2,
+  "name": "Area 1",
+  "status": 1,
+  "created_date": "07\/28\/2023",
+  "modify_date": "07\/28\/2023"
+ },
+ {
+  "area_id": 2,
+  "zone_id": 2,
+  "name": "Area 2",
+  "status": 1,
+  "created_date": "07\/28\/2023",
+  "modify_date": "07\/28\/2023"
+ },
+ {
+  "area_id": 3,
+  "zone_id": 1,
+  "name": "Area 2",
+  "status": 1,
+  "created_date": "07\/28\/2023",
+  "modify_date": "07\/28\/2023"
+ },
+ {
+  "area_id": 4,
+  "zone_id": 1,
+  "name": "Area 1",
+  "status": 1,
+  "created_date": "07\/28\/2023",
+  "modify_date": "07\/28\/2023"
+ },
+ {
+  "area_id": 5,
+  "zone_id": 1,
+  "name": "Area 3",
+  "status": 1,
+  "created_date": "07\/28\/2023",
+  "modify_date": "07\/28\/2023"
+ },
+ {
+  "area_id": 6,
+  "zone_id": 1,
+  "name": "Area4",
+  "status": 2,
+  "created_date": "05\/16\/2024",
+  "modify_date": "05\/16\/2024"
+ },
+ {
+  "area_id": 7,
+  "zone_id": 1,
+  "name": "Area",
+  "status": 2,
+  "created_date": "05\/17\/2024",
+  "modify_date": "05\/17\/2024"
+ }
+],
+"brand_detail":[
+ {
+  "brand_id": 1,
+  "brand_name": "bigs",
+  "status": 1,
+  "created_date": "07\/26\/2023",
+  "modify_date": "05\/13\/2024"
+ },
+ {
+  "brand_id": 2,
+  "brand_name": "Amul",
+  "status": 1,
+  "created_date": "05\/10\/2024",
+  "modify_date": "05\/10\/2024"
+ },
+ {
+  "brand_id": 3,
+  "brand_name": "Balaji",
+  "status": 2,
+  "created_date": "05\/10\/2024",
+  "modify_date": "05\/10\/2024"
+ },
+ {
+  "brand_id": 4,
+  "brand_name": "1",
+  "status": 2,
+  "created_date": "05\/10\/2024",
+  "modify_date": "05\/10\/2024"
+ },
+ {
+  "brand_id": 5,
+  "brand_name": "2",
+  "status": 2,
+  "created_date": "05\/10\/2024",
+  "modify_date": "05\/10\/2024"
+ },
+ {
+  "brand_id": 6,
+  "brand_name": "31",
+  "status": 2,
+  "created_date": "05\/10\/2024",
+  "modify_date": "05\/10\/2024"
+ },
+ {
+  "brand_id": 7,
+  "brand_name": "4",
+  "status": 2,
+  "created_date": "05\/10\/2024",
+  "modify_date": "05\/10\/2024"
+ },
+ {
+  "brand_id": 8,
+  "brand_name": "Balaji",
+  "status": 1,
+  "created_date": "05\/11\/2024",
+  "modify_date": "05\/11\/2024"
+ },
+ {
+  "brand_id": 9,
+  "brand_name": "1",
+  "status": 2,
+  "created_date": "05\/11\/2024",
+  "modify_date": "05\/11\/2024"
+ },
+ {
+  "brand_id": 10,
+  "brand_name": "B1",
+  "status": 2,
+  "created_date": "05\/13\/2024",
+  "modify_date": "05\/13\/2024"
+ },
+ {
+  "brand_id": 11,
+  "brand_name": "B2",
+  "status": 2,
+  "created_date": "05\/13\/2024",
+  "modify_date": "05\/13\/2024"
+ },
+ {
+  "brand_id": 12,
+  "brand_name": "b2",
+  "status": 2,
+  "created_date": "05\/13\/2024",
+  "modify_date": "05\/13\/2024"
+ },
+ {
+  "brand_id": 13,
+  "brand_name": "Zone3",
+  "status": 1,
+  "created_date": "05\/14\/2024",
+  "modify_date": "05\/14\/2024"
+ }
+],
+"cart_detail":[
+ {
+  "cart_id": 1,
+  "user_id": 2,
+  "prod_id": 5,
+  "qty": 0,
+  "status": 2,
+  "created_date": "08\/06\/2023",
+  "modify_date": "08\/06\/2023"
+ },
+ {
+  "cart_id": 2,
+  "user_id": 2,
+  "prod_id": 6,
+  "qty": 1,
+  "status": 2,
+  "created_date": "08\/06\/2023",
+  "modify_date": "08\/06\/2023"
+ },
+ {
+  "cart_id": 3,
+  "user_id": 2,
+  "prod_id": 5,
+  "qty": 1,
+  "status": 2,
+  "created_date": "08\/08\/2023",
+  "modify_date": "08\/08\/2023"
+ },
+ {
+  "cart_id": 4,
+  "user_id": 2,
+  "prod_id": 5,
+  "qty": 3,
+  "status": 2,
+  "created_date": "08\/08\/2023",
+  "modify_date": "08\/08\/2023"
+ },
+ {
+  "cart_id": 5,
+  "user_id": 2,
+  "prod_id": 11,
+  "qty": 1,
+  "status": 2,
+  "created_date": "08\/08\/2023",
+  "modify_date": "08\/08\/2023"
+ },
+ {
+  "cart_id": 6,
+  "user_id": 2,
+  "prod_id": 10,
+  "qty": 3,
+  "status": 2,
+  "created_date": "08\/08\/2023",
+  "modify_date": "08\/08\/2023"
+ },
+ {
+  "cart_id": 7,
+  "user_id": 2,
+  "prod_id": 5,
+  "qty": 1,
+  "status": 2,
+  "created_date": "08\/08\/2023",
+  "modify_date": "08\/08\/2023"
+ },
+ {
+  "cart_id": 8,
+  "user_id": 2,
+  "prod_id": 6,
+  "qty": 1,
+  "status": 2,
+  "created_date": "08\/08\/2023",
+  "modify_date": "08\/08\/2023"
+ },
+ {
+  "cart_id": 9,
+  "user_id": 2,
+  "prod_id": 6,
+  "qty": 1,
+  "status": 2,
+  "created_date": "08\/08\/2023",
+  "modify_date": "08\/08\/2023"
+ },
+ {
+  "cart_id": 10,
+  "user_id": 7,
+  "prod_id": 5,
+  "qty": 1,
+  "status": 2,
+  "created_date": "08\/08\/2023",
+  "modify_date": "08\/08\/2023"
+ },
+ {
+  "cart_id": 11,
+  "user_id": 7,
+  "prod_id": 5,
+  "qty": 4,
+  "status": 2,
+  "created_date": "08\/08\/2023",
+  "modify_date": "08\/08\/2023"
+ },
+ {
+  "cart_id": 12,
+  "user_id": 7,
+  "prod_id": 6,
+  "qty": 1,
+  "status": 2,
+  "created_date": "08\/08\/2023",
+  "modify_date": "08\/08\/2023"
+ },
+ {
+  "cart_id": 13,
+  "user_id": 7,
+  "prod_id": 7,
+  "qty": 0,
+  "status": 2,
+  "created_date": "08\/08\/2023",
+  "modify_date": "08\/08\/2023"
+ },
+ {
+  "cart_id": 14,
+  "user_id": 7,
+  "prod_id": 5,
+  "qty": 1,
+  "status": 2,
+  "created_date": "08\/08\/2023",
+  "modify_date": "08\/08\/2023"
+ },
+ {
+  "cart_id": 15,
+  "user_id": 7,
+  "prod_id": 5,
+  "qty": 1,
+  "status": 2,
+  "created_date": "08\/08\/2023",
+  "modify_date": "08\/08\/2023"
+ },
+ {
+  "cart_id": 16,
+  "user_id": 7,
+  "prod_id": 5,
+  "qty": 2,
+  "status": 1,
+  "created_date": "08\/08\/2023",
+  "modify_date": "08\/08\/2023"
+ },
+ {
+  "cart_id": 17,
+  "user_id": 7,
+  "prod_id": 6,
+  "qty": 3,
+  "status": 1,
+  "created_date": "08\/08\/2023",
+  "modify_date": "08\/08\/2023"
+ },
+ {
+  "cart_id": 18,
+  "user_id": 2,
+  "prod_id": 5,
+  "qty": 1,
+  "status": 2,
+  "created_date": "08\/08\/2023",
+  "modify_date": "08\/10\/2023"
+ },
+ {
+  "cart_id": 19,
+  "user_id": 7,
+  "prod_id": 5,
+  "qty": 1,
+  "status": 1,
+  "created_date": "08\/10\/2023",
+  "modify_date": "08\/10\/2023"
+ },
+ {
+  "cart_id": 20,
+  "user_id": 7,
+  "prod_id": 6,
+  "qty": 1,
+  "status": 1,
+  "created_date": "08\/10\/2023",
+  "modify_date": "08\/10\/2023"
+ },
+ {
+  "cart_id": 21,
+  "user_id": 7,
+  "prod_id": 6,
+  "qty": 1,
+  "status": 1,
+  "created_date": "08\/10\/2023",
+  "modify_date": "08\/10\/2023"
+ },
+ {
+  "cart_id": 22,
+  "user_id": 2,
+  "prod_id": 5,
+  "qty": 3,
+  "status": 2,
+  "created_date": "08\/10\/2023",
+  "modify_date": "08\/10\/2023"
+ },
+ {
+  "cart_id": 23,
+  "user_id": 2,
+  "prod_id": 6,
+  "qty": 2,
+  "status": 2,
+  "created_date": "08\/10\/2023",
+  "modify_date": "08\/10\/2023"
+ },
+ {
+  "cart_id": 24,
+  "user_id": 2,
+  "prod_id": 5,
+  "qty": 1,
+  "status": 2,
+  "created_date": "08\/10\/2023",
+  "modify_date": "08\/10\/2023"
+ },
+ {
+  "cart_id": 25,
+  "user_id": 2,
+  "prod_id": 6,
+  "qty": 1,
+  "status": 2,
+  "created_date": "08\/10\/2023",
+  "modify_date": "08\/10\/2023"
+ },
+ {
+  "cart_id": 26,
+  "user_id": 2,
+  "prod_id": 5,
+  "qty": 1,
+  "status": 2,
+  "created_date": "08\/10\/2023",
+  "modify_date": "08\/10\/2023"
+ },
+ {
+  "cart_id": 27,
+  "user_id": 2,
+  "prod_id": 6,
+  "qty": 1,
+  "status": 2,
+  "created_date": "08\/10\/2023",
+  "modify_date": "08\/10\/2023"
+ },
+ {
+  "cart_id": 28,
+  "user_id": 2,
+  "prod_id": 6,
+  "qty": 1,
+  "status": 2,
+  "created_date": "08\/10\/2023",
+  "modify_date": "08\/10\/2023"
+ },
+ {
+  "cart_id": 29,
+  "user_id": 2,
+  "prod_id": 5,
+  "qty": 1,
+  "status": 2,
+  "created_date": "08\/10\/2023",
+  "modify_date": "08\/10\/2023"
+ },
+ {
+  "cart_id": 30,
+  "user_id": 2,
+  "prod_id": 5,
+  "qty": 1,
+  "status": 2,
+  "created_date": "08\/10\/2023",
+  "modify_date": "08\/10\/2023"
+ },
+ {
+  "cart_id": 31,
+  "user_id": 2,
+  "prod_id": 5,
+  "qty": 1,
+  "status": 2,
+  "created_date": "08\/10\/2023",
+  "modify_date": "08\/10\/2023"
+ },
+ {
+  "cart_id": 32,
+  "user_id": 2,
+  "prod_id": 5,
+  "qty": 1,
+  "status": 2,
+  "created_date": "08\/10\/2023",
+  "modify_date": "08\/10\/2023"
+ },
+ {
+  "cart_id": 33,
+  "user_id": 2,
+  "prod_id": 5,
+  "qty": 2,
+  "status": 2,
+  "created_date": "08\/10\/2023",
+  "modify_date": "08\/10\/2023"
+ },
+ {
+  "cart_id": 34,
+  "user_id": 2,
+  "prod_id": 6,
+  "qty": 2,
+  "status": 2,
+  "created_date": "08\/10\/2023",
+  "modify_date": "08\/10\/2023"
+ },
+ {
+  "cart_id": 35,
+  "user_id": 2,
+  "prod_id": 7,
+  "qty": 1,
+  "status": 2,
+  "created_date": "08\/10\/2023",
+  "modify_date": "08\/10\/2023"
+ },
+ {
+  "cart_id": 36,
+  "user_id": 2,
+  "prod_id": 5,
+  "qty": 1,
+  "status": 1,
+  "created_date": "08\/11\/2023",
+  "modify_date": "08\/11\/2023"
+ }
+],
+"category_detail":[
+ {
+  "cat_id": 1,
+  "cat_name": "Frash Fruits & Vegetable",
+  "image": "category\/20230726155407547qM5gSxkrCh.png",
+  "color": "53B175",
+  "status": 1,
+  "created_date": "07\/26\/2023",
+  "modify_date": "05\/20\/2024"
+ },
+ {
+  "cat_id": 2,
+  "cat_name": "Cooking Oil & Ghee",
+  "image": "category\/202307261555485548dKi8yJisIn.png",
+  "color": "F8A44C",
+  "status": 1,
+  "created_date": "07\/26\/2023",
+  "modify_date": "05\/20\/2024"
+ },
+ {
+  "cat_id": 3,
+  "cat_name": "Meat & Fish",
+  "image": "category\/20230731100233233AOuWmq6r64.png",
+  "color": "F7A593",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "05\/19\/2024"
+ },
+ {
+  "cat_id": 4,
+  "cat_name": "Bakery & Snacks",
+  "image": "category\/20230731100257257bPdXFaneYu.png",
+  "color": "D3B0E0",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "cat_id": 5,
+  "cat_name": "Dairy & Eggs",
+  "image": "category\/20230731100322322vK4gHfIwCI.png",
+  "color": "FDE598",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "cat_id": 6,
+  "cat_name": "Beverages",
+  "image": "category\/20230731100347347lrk8CyW57u.png",
+  "color": "B7DFF5",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "cat_id": 7,
+  "cat_name": "Test",
+  "image": "category\/2024051910342234221rKJDZK8LT.jpg",
+  "color": "BBBBBB",
+  "status": 2,
+  "created_date": "05\/19\/2024",
+  "modify_date": "05\/19\/2024"
+ },
+ {
+  "cat_id": 8,
+  "cat_name": "Test",
+  "image": "category\/2024051912282128211JZe1U6Tok.jpg",
+  "color": "BBBB00",
+  "status": 2,
+  "created_date": "05\/19\/2024",
+  "modify_date": "05\/19\/2024"
+ },
+ {
+  "cat_id": 9,
+  "cat_name": "Test",
+  "image": "category\/202405202144454445ZK82l7oL5u.jpg",
+  "color": "BBBBBB",
+  "status": 2,
+  "created_date": "05\/20\/2024",
+  "modify_date": "05\/20\/2024"
+ },
+ {
+  "cat_id": 10,
+  "cat_name": "Test2",
+  "image": "category\/20240520220642642T9QUS0dY8q.jpg",
+  "color": "BBBBBB",
+  "status": 2,
+  "created_date": "05\/20\/2024",
+  "modify_date": "05\/20\/2024"
+ }
+],
+"favorite_detail":[
+ {
+  "fav_id": 1,
+  "prod_id": 5,
+  "user_id": 5,
+  "status": 1,
+  "created_date": "08\/02\/2023",
+  "modify_date": "08\/02\/2023"
+ },
+ {
+  "fav_id": 9,
+  "prod_id": 10,
+  "user_id": 2,
+  "status": 1,
+  "created_date": "08\/03\/2023",
+  "modify_date": "08\/03\/2023"
+ },
+ {
+  "fav_id": 11,
+  "prod_id": 6,
+  "user_id": 2,
+  "status": 1,
+  "created_date": "08\/06\/2023",
+  "modify_date": "08\/06\/2023"
+ },
+ {
+  "fav_id": 12,
+  "prod_id": 5,
+  "user_id": 2,
+  "status": 1,
+  "created_date": "08\/06\/2023",
+  "modify_date": "08\/06\/2023"
+ },
+ {
+  "fav_id": 13,
+  "prod_id": 7,
+  "user_id": 2,
+  "status": 1,
+  "created_date": "08\/06\/2023",
+  "modify_date": "08\/06\/2023"
+ }
+],
+"image_detail":[
+ {
+  "img_id": 4,
+  "prod_id": 5,
+  "image": "product\/202307310947354735xuruflIucc.png",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "img_id": 5,
+  "prod_id": 6,
+  "image": "product\/202307310951365136W6nJvPCdzQ.png",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "img_id": 6,
+  "prod_id": 7,
+  "image": "product\/202307310958175817ytVf7AVIOl.png",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "img_id": 7,
+  "prod_id": 8,
+  "image": "product\/202307311010091094RZ1nWHTug.png",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "img_id": 8,
+  "prod_id": 9,
+  "image": "product\/202307311011551155pIjIPWIb4w.png",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "img_id": 9,
+  "prod_id": 10,
+  "image": "product\/20230731101409149FomkojOsMt.png",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "img_id": 10,
+  "prod_id": 11,
+  "image": "product\/202307311018321832QsO9noUdBS.png",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "img_id": 11,
+  "prod_id": 12,
+  "image": "product\/202307311022232223jrsJiejIQu.png",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "img_id": 12,
+  "prod_id": 13,
+  "image": "product\/202406021212161216LnEfo5VCnx.jpg",
+  "status": 1,
+  "created_date": "06\/02\/2024",
+  "modify_date": "06\/02\/2024"
+ },
+ {
+  "img_id": 13,
+  "prod_id": 13,
+  "image": "product\/202406021212161216MHnvjgq6uq.jpg",
+  "status": 1,
+  "created_date": "06\/02\/2024",
+  "modify_date": "06\/02\/2024"
+ },
+ {
+  "img_id": 14,
+  "prod_id": 14,
+  "image": "product\/202406021215321532VPJoK5fHBk.jpg",
+  "status": 1,
+  "created_date": "06\/02\/2024",
+  "modify_date": "06\/02\/2024"
+ },
+ {
+  "img_id": 15,
+  "prod_id": 14,
+  "image": "product\/202406021215321532nKS51PEsy5.jpg",
+  "status": 1,
+  "created_date": "06\/02\/2024",
+  "modify_date": "06\/02\/2024"
+ },
+ {
+  "img_id": 16,
+  "prod_id": 15,
+  "image": "product\/20240602130723723IIkwJyojaY.jpg",
+  "status": 1,
+  "created_date": "06\/02\/2024",
+  "modify_date": "06\/02\/2024"
+ },
+ {
+  "img_id": 17,
+  "prod_id": 15,
+  "image": "product\/20240602130723723vjCwZpK6K5.jpg",
+  "status": 2,
+  "created_date": "06\/02\/2024",
+  "modify_date": "06\/05\/2024"
+ },
+ {
+  "img_id": 18,
+  "prod_id": 15,
+  "image": "product\/202406050017381738zePjm9xxj2.jpg",
+  "status": 2,
+  "created_date": "06\/05\/2024",
+  "modify_date": "06\/05\/2024"
+ },
+ {
+  "img_id": 19,
+  "prod_id": 15,
+  "image": "product\/202406050053265326xul4BNZRwz.jpg",
+  "status": 2,
+  "created_date": "06\/05\/2024",
+  "modify_date": "06\/05\/2024"
+ },
+ {
+  "img_id": 20,
+  "prod_id": 16,
+  "image": "product\/202406090317291729bFZqIlK9oA.jpg",
+  "status": 1,
+  "created_date": "06\/09\/2024",
+  "modify_date": "06\/09\/2024"
+ },
+ {
+  "img_id": 21,
+  "prod_id": 16,
+  "image": "product\/202406090317291729uJuCj02bxA.jpg",
+  "status": 1,
+  "created_date": "06\/09\/2024",
+  "modify_date": "06\/09\/2024"
+ },
+ {
+  "img_id": 22,
+  "prod_id": 16,
+  "image": "product\/202406090317291729bwCAfv9SHS.jpg",
+  "status": 1,
+  "created_date": "06\/09\/2024",
+  "modify_date": "06\/09\/2024"
+ },
+ {
+  "img_id": 23,
+  "prod_id": 16,
+  "image": "product\/20240609110133133wkXoq0tTxW.jpg",
+  "status": 2,
+  "created_date": "06\/09\/2024",
+  "modify_date": "06\/09\/2024"
+ },
+ {
+  "img_id": 24,
+  "prod_id": 16,
+  "image": "product\/2024060911030636LovgnWApSV.jpg",
+  "status": 2,
+  "created_date": "06\/09\/2024",
+  "modify_date": "06\/09\/2024"
+ }
+],
+"notification_detail":[
+ {
+  "notification_id": 1,
+  "user_id": 2,
+  "ref_id": 2,
+  "title": "Order Accepted",
+  "message": "your order #2 accepted.",
+  "notification_type": 2,
+  "status": 1,
+  "is_read": 1,
+  "created_date": "08\/12\/2023",
+  "modify_date": "08\/12\/2023"
+ },
+ {
+  "notification_id": 2,
+  "user_id": 2,
+  "ref_id": 2,
+  "title": "Order Accepted",
+  "message": "your order #2 accepted.",
+  "notification_type": 2,
+  "status": 1,
+  "is_read": 1,
+  "created_date": "08\/12\/2023",
+  "modify_date": "08\/12\/2023"
+ },
+ {
+  "notification_id": 3,
+  "user_id": 2,
+  "ref_id": 3,
+  "title": "Order Delivered",
+  "message": "your order #3 delivered.",
+  "notification_type": 2,
+  "status": 1,
+  "is_read": 1,
+  "created_date": "08\/12\/2023",
+  "modify_date": "08\/12\/2023"
+ },
+ {
+  "notification_id": 4,
+  "user_id": 2,
+  "ref_id": 3,
+  "title": "Order Delivered",
+  "message": "your order #3 delivered.",
+  "notification_type": 2,
+  "status": 1,
+  "is_read": 1,
+  "created_date": "08\/12\/2023",
+  "modify_date": "08\/12\/2023"
+ },
+ {
+  "notification_id": 5,
+  "user_id": 2,
+  "ref_id": 2,
+  "title": "Order Delivered",
+  "message": "your order #2 delivered.",
+  "notification_type": 2,
+  "status": 1,
+  "is_read": 1,
+  "created_date": "08\/12\/2023",
+  "modify_date": "08\/12\/2023"
+ },
+ {
+  "notification_id": 6,
+  "user_id": 2,
+  "ref_id": 4,
+  "title": "Order Accepted",
+  "message": "your order #4 accepted.",
+  "notification_type": 2,
+  "status": 1,
+  "is_read": 1,
+  "created_date": "06\/17\/2024",
+  "modify_date": "06\/17\/2024"
+ },
+ {
+  "notification_id": 7,
+  "user_id": 2,
+  "ref_id": 4,
+  "title": "Order Delivered",
+  "message": "your order #4 delivered.",
+  "notification_type": 2,
+  "status": 1,
+  "is_read": 1,
+  "created_date": "06\/17\/2024",
+  "modify_date": "06\/17\/2024"
+ },
+ {
+  "notification_id": 8,
+  "user_id": 2,
+  "ref_id": 6,
+  "title": "Order Declined",
+  "message": "your order #6 declined.",
+  "notification_type": 2,
+  "status": 1,
+  "is_read": 1,
+  "created_date": "06\/17\/2024",
+  "modify_date": "06\/17\/2024"
+ },
+ {
+  "notification_id": 9,
+  "user_id": 2,
+  "ref_id": 7,
+  "title": "Order Accepted",
+  "message": "your order #7 accepted.",
+  "notification_type": 2,
+  "status": 1,
+  "is_read": 1,
+  "created_date": "06\/17\/2024",
+  "modify_date": "06\/17\/2024"
+ },
+ {
+  "notification_id": 10,
+  "user_id": 2,
+  "ref_id": 7,
+  "title": "Order Cancel",
+  "message": "your order #7 canceled.",
+  "notification_type": 2,
+  "status": 1,
+  "is_read": 1,
+  "created_date": "06\/17\/2024",
+  "modify_date": "06\/17\/2024"
+ },
+ {
+  "notification_id": 11,
+  "user_id": 2,
+  "ref_id": 8,
+  "title": "Order Accepted",
+  "message": "your order #8 accepted.",
+  "notification_type": 2,
+  "status": 1,
+  "is_read": 1,
+  "created_date": "06\/17\/2024",
+  "modify_date": "06\/17\/2024"
+ },
+ {
+  "notification_id": 12,
+  "user_id": 2,
+  "ref_id": 8,
+  "title": "Order Delivered",
+  "message": "your order #8 delivered.",
+  "notification_type": 2,
+  "status": 1,
+  "is_read": 1,
+  "created_date": "06\/17\/2024",
+  "modify_date": "06\/17\/2024"
+ },
+ {
+  "notification_id": 13,
+  "user_id": 2,
+  "ref_id": 4,
+  "title": "Order Accepted",
+  "message": "your order #4 accepted.",
+  "notification_type": 2,
+  "status": 1,
+  "is_read": 1,
+  "created_date": "06\/17\/2024",
+  "modify_date": "06\/17\/2024"
+ },
+ {
+  "notification_id": 14,
+  "user_id": 2,
+  "ref_id": 4,
+  "title": "Order Cancel",
+  "message": "your order #4 canceled.",
+  "notification_type": 2,
+  "status": 1,
+  "is_read": 1,
+  "created_date": "06\/17\/2024",
+  "modify_date": "06\/17\/2024"
+ },
+ {
+  "notification_id": 15,
+  "user_id": 2,
+  "ref_id": 6,
+  "title": "Order Declined",
+  "message": "your order #6 declined.",
+  "notification_type": 2,
+  "status": 1,
+  "is_read": 1,
+  "created_date": "06\/17\/2024",
+  "modify_date": "06\/17\/2024"
+ },
+ {
+  "notification_id": 16,
+  "user_id": 2,
+  "ref_id": 7,
+  "title": "Order Accepted",
+  "message": "your order #7 accepted.",
+  "notification_type": 2,
+  "status": 1,
+  "is_read": 1,
+  "created_date": "06\/17\/2024",
+  "modify_date": "06\/17\/2024"
+ },
+ {
+  "notification_id": 17,
+  "user_id": 2,
+  "ref_id": 7,
+  "title": "Order Delivered",
+  "message": "your order #7 delivered.",
+  "notification_type": 2,
+  "status": 1,
+  "is_read": 1,
+  "created_date": "06\/17\/2024",
+  "modify_date": "06\/17\/2024"
+ },
+ {
+  "notification_id": 18,
+  "user_id": 2,
+  "ref_id": 8,
+  "title": "Order Accepted",
+  "message": "your order #8 accepted.",
+  "notification_type": 2,
+  "status": 1,
+  "is_read": 1,
+  "created_date": "06\/22\/2024",
+  "modify_date": "06\/22\/2024"
+ },
+ {
+  "notification_id": 19,
+  "user_id": 2,
+  "ref_id": 8,
+  "title": "Order Delivered",
+  "message": "your order #8 delivered.",
+  "notification_type": 2,
+  "status": 1,
+  "is_read": 1,
+  "created_date": "06\/22\/2024",
+  "modify_date": "06\/22\/2024"
+ },
+ {
+  "notification_id": 20,
+  "user_id": 2,
+  "ref_id": 9,
+  "title": "Order Accepted",
+  "message": "your order #9 accepted.",
+  "notification_type": 2,
+  "status": 1,
+  "is_read": 1,
+  "created_date": "06\/22\/2024",
+  "modify_date": "06\/22\/2024"
+ },
+ {
+  "notification_id": 21,
+  "user_id": 2,
+  "ref_id": 9,
+  "title": "Order Cancel",
+  "message": "your order #9 canceled.",
+  "notification_type": 2,
+  "status": 1,
+  "is_read": 1,
+  "created_date": "06\/22\/2024",
+  "modify_date": "06\/22\/2024"
+ },
+ {
+  "notification_id": 22,
+  "user_id": 2,
+  "ref_id": 10,
+  "title": "Order Accepted",
+  "message": "your order #10 accepted.",
+  "notification_type": 2,
+  "status": 1,
+  "is_read": 1,
+  "created_date": "06\/22\/2024",
+  "modify_date": "06\/22\/2024"
+ },
+ {
+  "notification_id": 23,
+  "user_id": 2,
+  "ref_id": 10,
+  "title": "Order Delivered",
+  "message": "your order #10 delivered.",
+  "notification_type": 2,
+  "status": 1,
+  "is_read": 1,
+  "created_date": "06\/22\/2024",
+  "modify_date": "06\/22\/2024"
+ }
+],
+"nutrition_detail":[
+ {
+  "nutrition_id": 1,
+  "prod_id": 4,
+  "nutrition_name": "Calories",
+  "nutrition_value": "104",
+  "status": 1,
+  "created_date": "07\/27\/2023",
+  "modify_date": "07\/27\/2023"
+ },
+ {
+  "nutrition_id": 2,
+  "prod_id": 4,
+  "nutrition_name": "Fat",
+  "nutrition_value": "0.3g",
+  "status": 1,
+  "created_date": "07\/27\/2023",
+  "modify_date": "07\/27\/2023"
+ },
+ {
+  "nutrition_id": 3,
+  "prod_id": 4,
+  "nutrition_name": "Sodium",
+  "nutrition_value": "3mg",
+  "status": 2,
+  "created_date": "07\/27\/2023",
+  "modify_date": "07\/27\/2023"
+ },
+ {
+  "nutrition_id": 4,
+  "prod_id": 5,
+  "nutrition_name": "Calories",
+  "nutrition_value": "89",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 5,
+  "prod_id": 5,
+  "nutrition_name": "Fat",
+  "nutrition_value": "0.3g",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 6,
+  "prod_id": 5,
+  "nutrition_name": "Water",
+  "nutrition_value": "75%",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 7,
+  "prod_id": 5,
+  "nutrition_name": "Protein",
+  "nutrition_value": "1.1g",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 8,
+  "prod_id": 5,
+  "nutrition_name": "Carbs",
+  "nutrition_value": "22.8g",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 9,
+  "prod_id": 5,
+  "nutrition_name": "Sugar",
+  "nutrition_value": "12.2g",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 10,
+  "prod_id": 5,
+  "nutrition_name": "Fiber",
+  "nutrition_value": "2.6g",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 11,
+  "prod_id": 6,
+  "nutrition_name": "Calories",
+  "nutrition_value": "94.6",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 12,
+  "prod_id": 6,
+  "nutrition_name": "Fat",
+  "nutrition_value": "0.3g",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 13,
+  "prod_id": 6,
+  "nutrition_name": "Water",
+  "nutrition_value": "156g",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 14,
+  "prod_id": 6,
+  "nutrition_name": "Protein",
+  "nutrition_value": "0.43g",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 15,
+  "prod_id": 6,
+  "nutrition_name": "Carbs",
+  "nutrition_value": "25.1g",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 16,
+  "prod_id": 6,
+  "nutrition_name": "Sugar",
+  "nutrition_value": "18.9g",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 17,
+  "prod_id": 6,
+  "nutrition_name": "Fiber",
+  "nutrition_value": "4.37g",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 18,
+  "prod_id": 7,
+  "nutrition_name": "Calories",
+  "nutrition_value": "66.6",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 19,
+  "prod_id": 7,
+  "nutrition_name": "Fat",
+  "nutrition_value": "0.2g",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 20,
+  "prod_id": 7,
+  "nutrition_name": "Water",
+  "nutrition_value": "86%",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 21,
+  "prod_id": 7,
+  "nutrition_name": "Protein",
+  "nutrition_value": "1.3g",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 22,
+  "prod_id": 7,
+  "nutrition_name": "Carbs",
+  "nutrition_value": "14.8g",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 23,
+  "prod_id": 7,
+  "nutrition_name": "Sugar",
+  "nutrition_value": "12g",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 24,
+  "prod_id": 7,
+  "nutrition_name": "Fiber",
+  "nutrition_value": "0.2g",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 25,
+  "prod_id": 7,
+  "nutrition_name": "Vitamin C",
+  "nutrition_value": "92% of the Daily Value (DV)",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 26,
+  "prod_id": 7,
+  "nutrition_name": "Folate",
+  "nutrition_value": "9% of the DV",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 27,
+  "prod_id": 7,
+  "nutrition_name": "Calcium",
+  "nutrition_value": "5% of the DV",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 28,
+  "prod_id": 7,
+  "nutrition_name": "Potassium",
+  "nutrition_value": "5% of the DV",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 29,
+  "prod_id": 8,
+  "nutrition_name": "Calories",
+  "nutrition_value": "217",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 30,
+  "prod_id": 8,
+  "nutrition_name": "Fat",
+  "nutrition_value": "11.8g",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 31,
+  "prod_id": 8,
+  "nutrition_name": "Water",
+  "nutrition_value": "61%",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 32,
+  "prod_id": 8,
+  "nutrition_name": "Protein",
+  "nutrition_value": "26.1g",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 33,
+  "prod_id": 8,
+  "nutrition_name": "Carbs",
+  "nutrition_value": "0g",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 34,
+  "prod_id": 8,
+  "nutrition_name": "Sugar",
+  "nutrition_value": "0g",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 35,
+  "prod_id": 8,
+  "nutrition_name": "Fiber",
+  "nutrition_value": "0g",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 36,
+  "prod_id": 9,
+  "nutrition_name": "Calories",
+  "nutrition_value": "284",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 37,
+  "prod_id": 9,
+  "nutrition_name": "Fat",
+  "nutrition_value": "6.2g",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 38,
+  "prod_id": 9,
+  "nutrition_name": "Water",
+  "nutrition_value": "61%",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 39,
+  "prod_id": 9,
+  "nutrition_name": "Protein",
+  "nutrition_value": "53.4g",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 40,
+  "prod_id": 9,
+  "nutrition_name": "Carbs",
+  "nutrition_value": "0g",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 41,
+  "prod_id": 9,
+  "nutrition_name": "Sugar",
+  "nutrition_value": "0g",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 42,
+  "prod_id": 9,
+  "nutrition_name": "Fiber",
+  "nutrition_value": "0g",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 43,
+  "prod_id": 10,
+  "nutrition_name": "Calories",
+  "nutrition_value": "31",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 44,
+  "prod_id": 10,
+  "nutrition_name": "Fat",
+  "nutrition_value": "0.3g",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 45,
+  "prod_id": 10,
+  "nutrition_name": "Water",
+  "nutrition_value": "92%",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 46,
+  "prod_id": 10,
+  "nutrition_name": "Protein",
+  "nutrition_value": "1g",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 47,
+  "prod_id": 10,
+  "nutrition_name": "Carbs",
+  "nutrition_value": "6g",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 48,
+  "prod_id": 10,
+  "nutrition_name": "Sugar",
+  "nutrition_value": "4.2g",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 49,
+  "prod_id": 10,
+  "nutrition_name": "Fiber",
+  "nutrition_value": "2.1g",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 50,
+  "prod_id": 11,
+  "nutrition_name": "Calories",
+  "nutrition_value": "9",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 51,
+  "prod_id": 11,
+  "nutrition_name": "Fat",
+  "nutrition_value": "0g",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 52,
+  "prod_id": 11,
+  "nutrition_name": "Protein",
+  "nutrition_value": "0.2g",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 53,
+  "prod_id": 11,
+  "nutrition_name": "Carbs",
+  "nutrition_value": "2g",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 54,
+  "prod_id": 11,
+  "nutrition_name": "Sugar",
+  "nutrition_value": "0.2g",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 55,
+  "prod_id": 11,
+  "nutrition_name": "Fiber",
+  "nutrition_value": "0.2g",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 56,
+  "prod_id": 11,
+  "nutrition_name": "Sodium",
+  "nutrition_value": "1.4mg",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 57,
+  "prod_id": 11,
+  "nutrition_name": "Magnesium",
+  "nutrition_value": "4.7mg",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 58,
+  "prod_id": 11,
+  "nutrition_name": "Potassium",
+  "nutrition_value": "45.6mg",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 59,
+  "prod_id": 12,
+  "nutrition_name": "Calories",
+  "nutrition_value": "4.5",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 60,
+  "prod_id": 12,
+  "nutrition_name": "Fat",
+  "nutrition_value": "0g",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 61,
+  "prod_id": 12,
+  "nutrition_name": "Protein",
+  "nutrition_value": "0.2g",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 62,
+  "prod_id": 12,
+  "nutrition_name": "Carbs",
+  "nutrition_value": "1g",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 63,
+  "prod_id": 12,
+  "nutrition_name": "Sugar",
+  "nutrition_value": "0g",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 64,
+  "prod_id": 12,
+  "nutrition_name": "Fiber",
+  "nutrition_value": "0.1g",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 65,
+  "prod_id": 12,
+  "nutrition_name": "Sodium",
+  "nutrition_value": "0.5mg",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 66,
+  "prod_id": 12,
+  "nutrition_name": "Zinc",
+  "nutrition_value": "0.04mg",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "nutrition_id": 67,
+  "prod_id": 14,
+  "nutrition_name": "Fat",
+  "nutrition_value": "10%",
+  "status": 1,
+  "created_date": "06\/02\/2024",
+  "modify_date": "06\/02\/2024"
+ },
+ {
+  "nutrition_id": 68,
+  "prod_id": 15,
+  "nutrition_name": "Flat",
+  "nutrition_value": "10%",
+  "status": 2,
+  "created_date": "06\/02\/2024",
+  "modify_date": "06\/05\/2024"
+ },
+ {
+  "nutrition_id": 69,
+  "prod_id": 15,
+  "nutrition_name": "Sugar",
+  "nutrition_value": "50%",
+  "status": 2,
+  "created_date": "06\/02\/2024",
+  "modify_date": "06\/05\/2024"
+ },
+ {
+  "nutrition_id": 70,
+  "prod_id": 15,
+  "nutrition_name": "Flat1",
+  "nutrition_value": "10%",
+  "status": 1,
+  "created_date": "06\/05\/2024",
+  "modify_date": "06\/05\/2024"
+ },
+ {
+  "nutrition_id": 71,
+  "prod_id": 15,
+  "nutrition_name": "N1",
+  "nutrition_value": "10",
+  "status": 2,
+  "created_date": "06\/05\/2024",
+  "modify_date": "06\/05\/2024"
+ },
+ {
+  "nutrition_id": 72,
+  "prod_id": 15,
+  "nutrition_name": "N2",
+  "nutrition_value": "50",
+  "status": 2,
+  "created_date": "06\/05\/2024",
+  "modify_date": "06\/05\/2024"
+ },
+ {
+  "nutrition_id": 73,
+  "prod_id": 16,
+  "nutrition_name": "n1",
+  "nutrition_value": "10%",
+  "status": 1,
+  "created_date": "06\/09\/2024",
+  "modify_date": "06\/09\/2024"
+ },
+ {
+  "nutrition_id": 74,
+  "prod_id": 16,
+  "nutrition_name": "n2",
+  "nutrition_value": "15%",
+  "status": 2,
+  "created_date": "06\/09\/2024",
+  "modify_date": "06\/09\/2024"
+ },
+ {
+  "nutrition_id": 75,
+  "prod_id": 16,
+  "nutrition_name": "m3",
+  "nutrition_value": "40%",
+  "status": 1,
+  "created_date": "06\/09\/2024",
+  "modify_date": "06\/09\/2024"
+ },
+ {
+  "nutrition_id": 76,
+  "prod_id": 16,
+  "nutrition_name": "m3",
+  "nutrition_value": "40%",
+  "status": 2,
+  "created_date": "06\/09\/2024",
+  "modify_date": "06\/09\/2024"
+ }
+],
+"offer_detail":[
+ {
+  "offer_id": 1,
+  "prod_id": 5,
+  "price": 2.49,
+  "start_date": "07\/31\/2023",
+  "end_date": "08\/30\/2023",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "offer_id": 2,
+  "prod_id": 6,
+  "price": 1.49,
+  "start_date": "07\/31\/2023",
+  "end_date": "08\/30\/2023",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "offer_id": 3,
+  "prod_id": 11,
+  "price": 1.99,
+  "start_date": "06\/12\/2024",
+  "end_date": "06\/18\/2024",
+  "status": 2,
+  "created_date": "06\/12\/2024",
+  "modify_date": "06\/13\/2024"
+ },
+ {
+  "offer_id": 4,
+  "prod_id": 11,
+  "price": 1.99,
+  "start_date": "06\/14\/2024",
+  "end_date": "06\/24\/2024",
+  "status": 2,
+  "created_date": "06\/14\/2024",
+  "modify_date": "06\/14\/2024"
+ },
+ {
+  "offer_id": 5,
+  "prod_id": 11,
+  "price": 1.49,
+  "start_date": "06\/14\/2024",
+  "end_date": "06\/17\/2024",
+  "status": 2,
+  "created_date": "06\/14\/2024",
+  "modify_date": "06\/14\/2024"
+ }
+],
+"order_detail":[
+ {
+  "order_id": 2,
+  "cart_id": "18",
+  "user_id": 2,
+  "address_id": 2,
+  "total_price": 2.49,
+  "user_pay_price": 4.2410000000000005,
+  "discount_price": 0.24900000000000003,
+  "deliver_price": 2,
+  "promo_code_id": "1",
+  "deliver_type": 1,
+  "payment_type": 1,
+  "payment_status": 1,
+  "order_status": 3,
+  "status": 1,
+  "created_date": "08\/10\/2023",
+  "modify_date": "08\/12\/2023"
+ },
+ {
+  "order_id": 3,
+  "cart_id": "18",
+  "user_id": 2,
+  "address_id": 2,
+  "total_price": 2.49,
+  "user_pay_price": 4.2410000000000005,
+  "discount_price": 0.24900000000000003,
+  "deliver_price": 2,
+  "promo_code_id": "1",
+  "deliver_type": 1,
+  "payment_type": 1,
+  "payment_status": 1,
+  "order_status": 3,
+  "status": 1,
+  "created_date": "08\/10\/2023",
+  "modify_date": "08\/12\/2023"
+ },
+ {
+  "order_id": 4,
+  "cart_id": "22,23",
+  "user_id": 2,
+  "address_id": 2,
+  "total_price": 10.450000000000001,
+  "user_pay_price": 11.405000000000001,
+  "discount_price": 1.0450000000000002,
+  "deliver_price": 2,
+  "promo_code_id": "1",
+  "deliver_type": 1,
+  "payment_type": 2,
+  "payment_status": 2,
+  "order_status": 4,
+  "status": 1,
+  "created_date": "08\/10\/2023",
+  "modify_date": "06\/17\/2024"
+ },
+ {
+  "order_id": 5,
+  "cart_id": "24,25",
+  "user_id": 2,
+  "address_id": 1,
+  "total_price": 3.9800000000000004,
+  "user_pay_price": 5.582000000000001,
+  "discount_price": 0.3980000000000001,
+  "deliver_price": 2,
+  "promo_code_id": "1",
+  "deliver_type": 1,
+  "payment_type": 2,
+  "payment_status": 1,
+  "order_status": 1,
+  "status": 1,
+  "created_date": "08\/10\/2023",
+  "modify_date": "08\/10\/2023"
+ },
+ {
+  "order_id": 6,
+  "cart_id": "26,27,28",
+  "user_id": 2,
+  "address_id": 1,
+  "total_price": 5.470000000000001,
+  "user_pay_price": 6.923000000000001,
+  "discount_price": 0.547,
+  "deliver_price": 2,
+  "promo_code_id": "1",
+  "deliver_type": 1,
+  "payment_type": 1,
+  "payment_status": 1,
+  "order_status": 5,
+  "status": 1,
+  "created_date": "08\/10\/2023",
+  "modify_date": "06\/17\/2024"
+ },
+ {
+  "order_id": 7,
+  "cart_id": "29",
+  "user_id": 2,
+  "address_id": 1,
+  "total_price": 2.49,
+  "user_pay_price": 4.49,
+  "discount_price": 0,
+  "deliver_price": 2,
+  "deliver_type": 1,
+  "payment_type": 1,
+  "payment_status": 1,
+  "order_status": 3,
+  "status": 1,
+  "created_date": "08\/10\/2023",
+  "modify_date": "06\/17\/2024"
+ },
+ {
+  "order_id": 8,
+  "cart_id": "30",
+  "user_id": 2,
+  "address_id": 1,
+  "total_price": 2.49,
+  "user_pay_price": 4.49,
+  "discount_price": 0,
+  "deliver_price": 2,
+  "deliver_type": 1,
+  "payment_type": 1,
+  "payment_status": 1,
+  "order_status": 3,
+  "status": 1,
+  "created_date": "08\/10\/2023",
+  "modify_date": "06\/22\/2024"
+ },
+ {
+  "order_id": 9,
+  "cart_id": "31",
+  "user_id": 2,
+  "address_id": 1,
+  "total_price": 2.49,
+  "user_pay_price": 4.2410000000000005,
+  "discount_price": 0.24900000000000003,
+  "deliver_price": 2,
+  "promo_code_id": "1",
+  "deliver_type": 1,
+  "payment_type": 1,
+  "payment_status": 1,
+  "order_status": 4,
+  "status": 1,
+  "created_date": "08\/10\/2023",
+  "modify_date": "06\/22\/2024"
+ },
+ {
+  "order_id": 10,
+  "cart_id": "32",
+  "user_id": 2,
+  "address_id": 1,
+  "total_price": 2.49,
+  "user_pay_price": 4.49,
+  "discount_price": 0,
+  "deliver_price": 2,
+  "deliver_type": 1,
+  "payment_type": 1,
+  "payment_status": 1,
+  "order_status": 3,
+  "status": 1,
+  "created_date": "08\/10\/2023",
+  "modify_date": "06\/22\/2024"
+ },
+ {
+  "order_id": 11,
+  "cart_id": "33,34,35",
+  "user_id": 2,
+  "address_id": 1,
+  "total_price": 8.950000000000001,
+  "user_pay_price": 10.055000000000001,
+  "discount_price": 0.8950000000000001,
+  "deliver_price": 2,
+  "promo_code_id": "1",
+  "deliver_type": 1,
+  "payment_type": 1,
+  "payment_status": 1,
+  "order_status": 1,
+  "status": 1,
+  "created_date": "08\/10\/2023",
+  "modify_date": "08\/10\/2023"
+ }
+],
+"order_payment_detail":[
+ {
+  "transaction_id": 1,
+  "order_id": 4,
+  "transaction_payload": "{\"status\":\"1\",\"payment_transaction_id\":\"2122312312313\" }",
+  "payment_transaction_id": "2122312312313",
+  "status": 1,
+  "created_date": "08\/10\/2023",
+  "modify_date": "08\/10\/2023"
+ },
+ {
+  "transaction_id": 2,
+  "order_id": 4,
+  "transaction_payload": "{\"status\":\"1\",\"payment_transaction_id\":\"2122312312313\" }",
+  "payment_transaction_id": "2122312312313",
+  "status": 1,
+  "created_date": "08\/10\/2023",
+  "modify_date": "08\/10\/2023"
+ },
+ {
+  "transaction_id": 3,
+  "order_id": 4,
+  "transaction_payload": "{\"status\":\"1\",\"payment_transaction_id\":\"2122312312313\" }",
+  "payment_transaction_id": "2122312312313",
+  "status": 1,
+  "created_date": "08\/10\/2023",
+  "modify_date": "08\/10\/2023"
+ }
+],
+"payment_method_detail":[
+ {
+  "pay_id": 1,
+  "user_id": 2,
+  "name": "Card1",
+  "card_number": "4242424242424242",
+  "card_month": "12",
+  "card_year": "28",
+  "status": 1,
+  "created_date": "08\/09\/2023",
+  "modify_date": "08\/09\/2023"
+ },
+ {
+  "pay_id": 2,
+  "user_id": 2,
+  "name": "Card1",
+  "card_number": "4242424242424243",
+  "card_month": "12",
+  "card_year": "28",
+  "status": 1,
+  "created_date": "08\/09\/2023",
+  "modify_date": "08\/09\/2023"
+ },
+ {
+  "pay_id": 3,
+  "user_id": 2,
+  "name": "Ca",
+  "card_number": "4242424242424242",
+  "card_month": "08",
+  "card_year": "2025",
+  "status": 1,
+  "created_date": "08\/09\/2023",
+  "modify_date": "08\/09\/2023"
+ }
+],
+"product_detail":[
+ {
+  "prod_id": 5,
+  "cat_id": 1,
+  "brand_id": 1,
+  "type_id": 1,
+  "name": "Organic Banana",
+  "detail": "banana, fruit of the genus Musa, of the family Musaceae, one of the most important fruit crops of the world. The banana is grown in the tropics, and, though it is most widely consumed in those regions, it is valued worldwide for its flavour, nutritional value, and availability throughout the year",
+  "unit_name": "pcs",
+  "unit_value": "7",
+  "nutrition_weight": "200g",
+  "price": 2.99,
+  "status": 2,
+  "created_date": "07\/31\/2023",
+  "modify_date": "06\/09\/2024"
+ },
+ {
+  "prod_id": 6,
+  "cat_id": 1,
+  "brand_id": 1,
+  "type_id": 1,
+  "name": "Red Apple",
+  "detail": "Apples contain key nutrients, including fiber and antioxidants. They may offer health benefits, including lowering blood sugar levels and benefitting heart health.",
+  "unit_name": "kg",
+  "unit_value": "1",
+  "nutrition_weight": "182g",
+  "price": 1.99,
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "prod_id": 7,
+  "cat_id": 1,
+  "brand_id": 1,
+  "type_id": 1,
+  "name": "Oranges",
+  "detail": "Many types of oranges are high in fiber and beneficial vitamins, like vitamin C. They also contain antioxidants which can have various health benefits, including supporting immune function.",
+  "unit_name": "kg",
+  "unit_value": "1",
+  "nutrition_weight": "140g",
+  "price": 0.99,
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "prod_id": 8,
+  "cat_id": 3,
+  "brand_id": 1,
+  "type_id": 1,
+  "name": "Beef Bone",
+  "detail": "When consumed in moderation, beef can improve muscle growth and maintenance. It’s also rich in iron and zinc. But high consumption of beef has been linked to an increased risk for heart disease and cancer.",
+  "unit_name": "kg",
+  "unit_value": "1",
+  "nutrition_weight": "100g",
+  "price": 3.99,
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "prod_id": 9,
+  "cat_id": 3,
+  "brand_id": 1,
+  "type_id": 1,
+  "name": "Broiler Chicken",
+  "detail": "When consumed in moderation, beef can improve muscle growth and maintenance. It’s also rich in iron and zinc. But high consumption of beef has been linked to an increased risk for heart disease and cancer.",
+  "unit_name": "kg",
+  "unit_value": "1",
+  "nutrition_weight": "100g",
+  "price": 3.99,
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "prod_id": 10,
+  "cat_id": 1,
+  "brand_id": 1,
+  "type_id": 1,
+  "name": "Bell Peppers",
+  "detail": "Bell peppers (Capsicum annuum) are fruits that belong to the nightshade family. They are low in calories and rich in vitamin C and other antioxidants, making them an excellent addition to a healthy diet.",
+  "unit_name": "gm",
+  "unit_value": "250",
+  "nutrition_weight": "100g",
+  "price": 1.99,
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "prod_id": 11,
+  "cat_id": 1,
+  "brand_id": 1,
+  "type_id": 1,
+  "name": "Ginger",
+  "detail": "Ginger may have numerous health benefits due to its anti-inflammatory, anti-nausea, and other properties. It may help you lose weight, manage arthritis, reduce menstrual symptoms, and more.",
+  "unit_name": "gm",
+  "unit_value": "250",
+  "nutrition_weight": "11g",
+  "price": 2.99,
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "prod_id": 15,
+  "cat_id": 3,
+  "brand_id": 2,
+  "type_id": 3,
+  "name": "Apple1",
+  "detail": "Apple Detail 1",
+  "unit_name": "Kg",
+  "unit_value": "2",
+  "nutrition_weight": "8",
+  "price": 2.25,
+  "status": 2,
+  "created_date": "06\/02\/2024",
+  "modify_date": "06\/09\/2024"
+ },
+ {
+  "prod_id": 16,
+  "cat_id": 1,
+  "brand_id": 1,
+  "type_id": 1,
+  "name": "Test Pro",
+  "detail": "Detail",
+  "unit_name": "Kg",
+  "unit_value": "1",
+  "nutrition_weight": "-",
+  "price": 2.2,
+  "status": 2,
+  "created_date": "06\/09\/2024",
+  "modify_date": "06\/09\/2024"
+ }
+],
+"promo_code_detail":[
+ {
+  "promo_code_id": 1,
+  "code": "CGREFILL",
+  "title": "UPTO 90% OFF",
+  "description": "Now Explore Premium Dry Fruits & Nuts At Happilo. Flat 34% Off On Order. No Minimum Purchase Criteria. Explore Various Types Of Nuts, Dried Fruits, Seeds, Berries, Family Packs, Combos And More Starting From Rs.99 Only. Just Click On the Link And Visit The Offer Page To Explore More",
+  "type": 1,
+  "min_order_amount": 2,
+  "max_discount_amount": 50,
+  "offer_price": 10,
+  "start_date": "08\/08\/2023",
+  "end_date": "09\/08\/2023",
+  "status": 1,
+  "created_date": "08\/08\/2023",
+  "modify_date": "08\/08\/2023"
+ },
+ {
+  "promo_code_id": 2,
+  "code": "ADREFILL",
+  "title": "UPTO 50% OFF",
+  "description": "Now Explore Premium Dry Fruits & Nuts At Happilo. Flat 34% Off On Order. No Minimum Purchase Criteria. Explore Various Types Of Nuts, Dried Fruits, Seeds, Berries, Family Packs, Combos And More Starting From Rs.99 Only. Just Click On the Link And Visit The Offer Page To Explore More",
+  "type": 1,
+  "min_order_amount": 10,
+  "max_discount_amount": 50,
+  "offer_price": 10,
+  "start_date": "08\/08\/2023",
+  "end_date": "09\/08\/2023",
+  "status": 1,
+  "created_date": "08\/08\/2023",
+  "modify_date": "08\/08\/2023"
+ },
+ {
+  "promo_code_id": 3,
+  "code": "TEST10",
+  "title": "Test Code1",
+  "description": "Description",
+  "type": 1,
+  "min_order_amount": 10,
+  "max_discount_amount": 50,
+  "offer_price": 10,
+  "start_date": "05\/26\/2024",
+  "end_date": "05\/30\/2024",
+  "status": 2,
+  "created_date": "05\/26\/2024",
+  "modify_date": "05\/26\/2024"
+ },
+ {
+  "promo_code_id": 4,
+  "code": "TEST10",
+  "title": "Test 10 per",
+  "description": "Description",
+  "type": 1,
+  "min_order_amount": 5,
+  "max_discount_amount": 50,
+  "offer_price": 10,
+  "start_date": "05\/26\/2024",
+  "end_date": "05\/31\/2024",
+  "status": 2,
+  "created_date": "05\/26\/2024",
+  "modify_date": "05\/26\/2024"
+ },
+ {
+  "promo_code_id": 5,
+  "code": "TEST20",
+  "title": "Test20 Fixed",
+  "description": "Ds",
+  "type": 0,
+  "min_order_amount": 200,
+  "max_discount_amount": 50,
+  "offer_price": 50,
+  "start_date": "05\/26\/2024",
+  "end_date": "05\/30\/2024",
+  "status": 2,
+  "created_date": "05\/26\/2024",
+  "modify_date": "05\/27\/2024"
+ },
+ {
+  "promo_code_id": 6,
+  "code": "TEST20",
+  "title": "Test20",
+  "description": "Description",
+  "type": 0,
+  "min_order_amount": 60,
+  "max_discount_amount": 60,
+  "offer_price": 20,
+  "start_date": "05\/28\/2024",
+  "end_date": "05\/29\/2024",
+  "status": 2,
+  "created_date": "05\/27\/2024",
+  "modify_date": "05\/27\/2024"
+ },
+ {
+  "promo_code_id": 7,
+  "code": "TEST20",
+  "title": "Test 20",
+  "description": "Description",
+  "type": 0,
+  "min_order_amount": 50,
+  "max_discount_amount": 50,
+  "offer_price": 10,
+  "start_date": "05\/28\/2024",
+  "end_date": "05\/29\/2024",
+  "status": 2,
+  "created_date": "05\/27\/2024",
+  "modify_date": "05\/27\/2024"
+ }
+],
+"type_detail":[
+ {
+  "type_id": 1,
+  "type_name": "Pulses",
+  "image": "type\/202307261610181018aVOpgmY1W1.png",
+  "color": "F8A44C",
+  "status": 1,
+  "created_date": "07\/26\/2023",
+  "modify_date": "07\/26\/2023"
+ },
+ {
+  "type_id": 2,
+  "type_name": "Pulses",
+  "image": "type\/202307310959535953siLWeCJ71I.png",
+  "color": "F8A44C",
+  "status": 2,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "type_id": 3,
+  "type_name": "Rice",
+  "image": "type\/202307311000160168a0737aEiC.png",
+  "color": "53B175",
+  "status": 1,
+  "created_date": "07\/31\/2023",
+  "modify_date": "07\/31\/2023"
+ },
+ {
+  "type_id": 4,
+  "type_name": "Test",
+  "image": "type\/202405211913091394DyHulmF7S.jpg",
+  "color": "777777",
+  "status": 2,
+  "created_date": "05\/21\/2024",
+  "modify_date": "05\/21\/2024"
+ },
+ {
+  "type_id": 5,
+  "type_name": "Test",
+  "image": "type\/202405230721552155llwQXdWhLB.jpg",
+  "color": "BBBB00",
+  "status": 2,
+  "created_date": "05\/23\/2024",
+  "modify_date": "05\/23\/2024"
+ }
+],
+"user_detail":[
+ {
+  "user_id": 1,
+  "username": "admin",
+  "user_type": 2,
+  "name": "admin",
+  "email": "admin@admin.com",
+  "password": "123456",
+  "area_id": 0,
+  "auth_token": "0ZbWMCJicXUFKfFh4JeM",
+  "reset_code": "0000",
+  "status": 1,
+  "created_date": "07\/26\/2023",
+  "modify_date": "06\/22\/2024"
+ },
+ {
+  "user_id": 2,
+  "username": "testuser",
+  "user_type": 1,
+  "email": "test@gmail.com",
+  "password": "123456",
+  "area_id": 0,
+  "auth_token": "LGXcafMVxToL5jAKCNqk",
+  "reset_code": "0000",
+  "status": 1,
+  "created_date": "07\/25\/2023",
+  "modify_date": "05\/09\/2024"
+ },
+ {
+  "user_id": 5,
+  "username": "User1",
+  "user_type": 1,
+  "email": "user1@gmail.com",
+  "password": "123456",
+  "area_id": 0,
+  "auth_token": "pJYFk5XGrCrGZl92K5qu",
+  "reset_code": "0000",
+  "status": 1,
+  "created_date": "07\/29\/2023",
+  "modify_date": "07\/29\/2023"
+ },
+ {
+  "user_id": 6,
+  "username": "user1",
+  "user_type": 1,
+  "email": "user2@gmail.com",
+  "password": "123456",
+  "area_id": 0,
+  "auth_token": "g0mtdJJqF9Xn7iDjQmNN",
+  "reset_code": "0000",
+  "status": 1,
+  "created_date": "08\/02\/2023",
+  "modify_date": "08\/02\/2023"
+ },
+ {
+  "user_id": 7,
+  "username": "user6",
+  "user_type": 1,
+  "email": "test7@gmail.com",
+  "password": "123456",
+  "area_id": 0,
+  "auth_token": "hNytj5vmrr9DmzaSXsyw",
+  "reset_code": "0000",
+  "status": 1,
+  "created_date": "08\/02\/2023",
+  "modify_date": "08\/06\/2023"
+ }
+],
+"zone_detail":[
+ {
+  "zone_id": 1,
+  "name": "Zone 1",
+  "status": 1,
+  "created_date": "07\/28\/2023",
+  "modify_date": "07\/28\/2023"
+ },
+ {
+  "zone_id": 2,
+  "name": "Zone 2",
+  "status": 1,
+  "created_date": "07\/28\/2023",
+  "modify_date": "07\/28\/2023"
+ },
+ {
+  "zone_id": 3,
+  "name": "Zone 4",
+  "status": 2,
+  "created_date": "05\/14\/2024",
+  "modify_date": "05\/14\/2024"
+ },
+ {
+  "zone_id": 4,
+  "name": "Zone4",
+  "status": 2,
+  "created_date": "05\/15\/2024",
+  "modify_date": "05\/15\/2024"
+ },
+ {
+  "zone_id": 5,
+  "name": "Zone 3",
+  "status": 2,
+  "created_date": "05\/15\/2024",
+  "modify_date": "05\/15\/2024"
+ }
+]
+}
